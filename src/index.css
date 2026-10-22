@@ -1,0 +1,26 @@
+/*
+ * Estilos neutros del proyecto de prueba.
+ *
+ * El CSS que trae la plantilla de Vite estila `h1`, `h2` y `code` sin capa de
+ * Tailwind. Como las utilidades del design system se emiten en
+ * `@layer utilities`, esas reglas sin capa ganan y pisan los estilos de los
+ * componentes (por ejemplo `text-2xl text-primary` de un `h1`).
+ *
+ * Acá no se estila nada del design system: el paquete trae su propio CSS.
+ */
+
+:root {
+  --sans: system-ui, "Segoe UI", Roboto, sans-serif;
+
+  font: 16px/145% var(--sans);
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  font-family: var(--sans);
+}
+
+#root {
+  min-height: 100vh;
+}
