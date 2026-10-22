@@ -1,0 +1,4 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "echo '@neos:registry=https://gitlab.neframedicalcare.com/api/v4/groups/162/-/packages/npm/' > .npmrc && echo \"//gitlab.neframedicalcare.com/api/v4/groups/162/-/packages/npm/:_authToken=$NPM_TOKEN\" >> .npmrc && pnpm install"
+}

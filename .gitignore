@@ -25,3 +25,4 @@ dist-ssr
 
 # credenciales del registry
 .npmrc
+
